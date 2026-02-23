@@ -16,8 +16,8 @@
 - `tcp.flags.syn==1` – shows only SYN packets (great for finding connection starts).
 
 ## Captures
-![Wireshark Interface](Wireshark Captures/first_capture.pcapng)
+![Wireshark Interface](Wireshark_Capture/screenshots/first_capture.png)
 *The main window with a captured packet selected.*
 
-![Three‑Way Handshake](Wireshark Captures/first_capture.pcapng)
+![Three‑Way Handshake](Wireshark_Capture/screenshots/SYN_packets.png)
 *SYN, SYN‑ACK, ACK packets filtered.*
