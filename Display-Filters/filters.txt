@@ -1,0 +1,9 @@
+`ip.addr == x.x.x.x` - Filters for IP addresses
+`http` - Protocol filters
+`ip` - IPv4 only
+`http.request.method == "GET"` - GET requests
+`http.request.method == "POST"` - See form submissions
+`tcp.port == 80 and ip.src == 192.168.1.100` - Traffic from a specific machine on port 80.
+`tls` - Show HTTPS (TLS) packets
+`!(arp or dns)` - Hide ARP and DNS noise
+`http contains` - Find packets with the listed fields
